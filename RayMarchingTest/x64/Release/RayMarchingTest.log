@@ -1,0 +1,48 @@
+﻿  BasicShader.cpp
+  Camera.cpp
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Camera.cpp(5,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  EventHandler.cpp
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Camera.cpp(30,15): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Camera.cpp(30,15): warning C4244:         with
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Camera.cpp(30,15): warning C4244:         [
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Camera.cpp(30,15): warning C4244:             T=float
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Camera.cpp(30,15): warning C4244:         ]
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\EventHandler.cpp(54,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\EventHandler.cpp(136,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\EventHandler.cpp(207,24): warning C4305: '*=': truncation from 'double' to 'float'
+  Main.cpp
+  Matrix.cpp
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\EventHandler.cpp(214,24): warning C4305: '/=': truncation from 'double' to 'float'
+  Program.cpp
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Matrix.cpp(39,12): warning C4244: 'initializing': conversion from 'genType' to 'float', possible loss of data
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Matrix.cpp(39,12): warning C4244:         with
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Matrix.cpp(39,12): warning C4244:         [
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Matrix.cpp(39,12): warning C4244:             genType=double
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Matrix.cpp(39,12): warning C4244:         ]
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Program.cpp(52,33): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Program.cpp(113,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Program.cpp(113,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Program.cpp(116,60): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  TriangleRenderer.cpp
+C:\Users\joshn\source\repos\RayMarchingTest\RayMarchingTest\Program.cpp(116,35): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  glad.c
+Program.obj : error LNK2001: unresolved external symbol glfwSwapBuffers
+Program.obj : error LNK2001: unresolved external symbol glfwSetFramebufferSizeCallback
+Program.obj : error LNK2001: unresolved external symbol glfwSwapInterval
+Program.obj : error LNK2001: unresolved external symbol glfwGetWindowUserPointer
+Program.obj : error LNK2001: unresolved external symbol glfwTerminate
+Program.obj : error LNK2001: unresolved external symbol glfwSetMouseButtonCallback
+Program.obj : error LNK2001: unresolved external symbol glfwPollEvents
+Program.obj : error LNK2001: unresolved external symbol glfwInit
+Program.obj : error LNK2001: unresolved external symbol glfwSetKeyCallback
+Program.obj : error LNK2001: unresolved external symbol glfwSetWindowShouldClose
+Program.obj : error LNK2001: unresolved external symbol glfwCreateWindow
+Program.obj : error LNK2001: unresolved external symbol glfwWindowHint
+Program.obj : error LNK2001: unresolved external symbol glfwSetInputMode
+Program.obj : error LNK2001: unresolved external symbol glfwMakeContextCurrent
+Program.obj : error LNK2001: unresolved external symbol glfwSetWindowUserPointer
+Program.obj : error LNK2001: unresolved external symbol glfwGetPrimaryMonitor
+Program.obj : error LNK2001: unresolved external symbol glfwGetProcAddress
+Program.obj : error LNK2001: unresolved external symbol glfwSetCursorPosCallback
+Program.obj : error LNK2001: unresolved external symbol glfwWindowShouldClose
+C:\Users\joshn\source\repos\RayMarchingTest\x64\Release\RayMarchingTest.exe : fatal error LNK1120: 19 unresolved externals
